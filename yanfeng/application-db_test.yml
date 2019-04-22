@@ -1,0 +1,26 @@
+spring:
+  redis:
+    host: 192.168.30.10
+datasource:
+  oes:
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/yanfeng_oes?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+  wms:
+    jdbc-url: jdbc:sqlserver://192.168.30.10:1433;DatabaseName=yanfeng_wms
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: SqlServer2017
+logging:
+  level.org.springframework: info
+#  level.com.galaxis.wcs.yanfeng: debug
+gess:
+  # 阻塞读的超时时间
+  timeout: 10000
+  server:
+    port: 1300
+  client:
+    ip: 127.0.0.1
+    port: 1200
+  readLine: N

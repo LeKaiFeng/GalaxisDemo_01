@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.galaxis.wcs.yanfeng.database.oes.mapper.KtMapper">
+  <resultMap id="BaseResultMap" type="com.galaxis.wcs.yanfeng.database.oes.domain.Kt">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="part_no" jdbcType="VARCHAR" property="partNo" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+    <result column="location" jdbcType="INTEGER" property="location" />
+    <result column="production_line" jdbcType="VARCHAR" property="productionLine" />
+    <result column="priority" jdbcType="INTEGER" property="priority" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+    <result column="run_number" jdbcType="INTEGER" property="runNumber" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="sensor" jdbcType="INTEGER" property="sensor" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, part_no, `level`, `location`, production_line, priority, `number`, run_number, 
+    `status`, sensor, remark
+  </sql>
+  <select id="selectByExample" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.KtExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_kt
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+    <if test="limit != null">
+      <if test="offset != null">
+        limit ${offset}, ${limit}
+      </if>
+      <if test="offset == null">
+        limit ${limit}
+      </if>
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_kt
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_kt
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.KtExample">
+    delete from t_kt
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Kt">
+    insert into t_kt (id, part_no, `level`, 
+      `location`, production_line, priority, 
+      `number`, run_number, `status`, 
+      sensor, remark)
+    values (#{id,jdbcType=INTEGER}, #{partNo,jdbcType=VARCHAR}, #{level,jdbcType=INTEGER}, 
+      #{location,jdbcType=INTEGER}, #{productionLine,jdbcType=VARCHAR}, #{priority,jdbcType=INTEGER}, 
+      #{number,jdbcType=INTEGER}, #{runNumber,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
+      #{sensor,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Kt">
+    insert into t_kt
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="partNo != null">
+        part_no,
+      </if>
+      <if test="level != null">
+        `level`,
+      </if>
+      <if test="location != null">
+        `location`,
+      </if>
+      <if test="productionLine != null">
+        production_line,
+      </if>
+      <if test="priority != null">
+        priority,
+      </if>
+      <if test="number != null">
+        `number`,
+      </if>
+      <if test="runNumber != null">
+        run_number,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="sensor != null">
+        sensor,
+      </if>
+      <if test="remark != null">
+        remark,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="partNo != null">
+        #{partNo,jdbcType=VARCHAR},
+      </if>
+      <if test="level != null">
+        #{level,jdbcType=INTEGER},
+      </if>
+      <if test="location != null">
+        #{location,jdbcType=INTEGER},
+      </if>
+      <if test="productionLine != null">
+        #{productionLine,jdbcType=VARCHAR},
+      </if>
+      <if test="priority != null">
+        #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="number != null">
+        #{number,jdbcType=INTEGER},
+      </if>
+      <if test="runNumber != null">
+        #{runNumber,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="sensor != null">
+        #{sensor,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.KtExample" resultType="java.lang.Long">
+    select count(*) from t_kt
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update t_kt
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.partNo != null">
+        part_no = #{record.partNo,jdbcType=VARCHAR},
+      </if>
+      <if test="record.level != null">
+        `level` = #{record.level,jdbcType=INTEGER},
+      </if>
+      <if test="record.location != null">
+        `location` = #{record.location,jdbcType=INTEGER},
+      </if>
+      <if test="record.productionLine != null">
+        production_line = #{record.productionLine,jdbcType=VARCHAR},
+      </if>
+      <if test="record.priority != null">
+        priority = #{record.priority,jdbcType=INTEGER},
+      </if>
+      <if test="record.number != null">
+        `number` = #{record.number,jdbcType=INTEGER},
+      </if>
+      <if test="record.runNumber != null">
+        run_number = #{record.runNumber,jdbcType=INTEGER},
+      </if>
+      <if test="record.status != null">
+        `status` = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.sensor != null">
+        sensor = #{record.sensor,jdbcType=INTEGER},
+      </if>
+      <if test="record.remark != null">
+        remark = #{record.remark,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update t_kt
+    set id = #{record.id,jdbcType=INTEGER},
+      part_no = #{record.partNo,jdbcType=VARCHAR},
+      `level` = #{record.level,jdbcType=INTEGER},
+      `location` = #{record.location,jdbcType=INTEGER},
+      production_line = #{record.productionLine,jdbcType=VARCHAR},
+      priority = #{record.priority,jdbcType=INTEGER},
+      `number` = #{record.number,jdbcType=INTEGER},
+      run_number = #{record.runNumber,jdbcType=INTEGER},
+      `status` = #{record.status,jdbcType=INTEGER},
+      sensor = #{record.sensor,jdbcType=INTEGER},
+      remark = #{record.remark,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Kt">
+    update t_kt
+    <set>
+      <if test="partNo != null">
+        part_no = #{partNo,jdbcType=VARCHAR},
+      </if>
+      <if test="level != null">
+        `level` = #{level,jdbcType=INTEGER},
+      </if>
+      <if test="location != null">
+        `location` = #{location,jdbcType=INTEGER},
+      </if>
+      <if test="productionLine != null">
+        production_line = #{productionLine,jdbcType=VARCHAR},
+      </if>
+      <if test="priority != null">
+        priority = #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="number != null">
+        `number` = #{number,jdbcType=INTEGER},
+      </if>
+      <if test="runNumber != null">
+        run_number = #{runNumber,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="sensor != null">
+        sensor = #{sensor,jdbcType=INTEGER},
+      </if>
+      <if test="remark != null">
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Kt">
+    update t_kt
+    set part_no = #{partNo,jdbcType=VARCHAR},
+      `level` = #{level,jdbcType=INTEGER},
+      `location` = #{location,jdbcType=INTEGER},
+      production_line = #{productionLine,jdbcType=VARCHAR},
+      priority = #{priority,jdbcType=INTEGER},
+      `number` = #{number,jdbcType=INTEGER},
+      run_number = #{runNumber,jdbcType=INTEGER},
+      `status` = #{status,jdbcType=INTEGER},
+      sensor = #{sensor,jdbcType=INTEGER},
+      remark = #{remark,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateNumber">
+    update t_kt set
+    <foreach collection="columns" separator="," item="column">
+      ${column} = ${column} + #{inc}
+    </foreach>
+    where id = #{id}
+  </update>
+</mapper>

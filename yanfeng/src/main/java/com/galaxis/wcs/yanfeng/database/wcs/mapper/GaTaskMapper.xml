@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.galaxis.wcs.yanfeng.database.wcs.mapper.GaTaskMapper">
+  <resultMap id="BaseResultMap" type="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTask">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="o_level" jdbcType="INTEGER" property="oLevel" />
+    <result column="o_pos" jdbcType="INTEGER" property="oPos" />
+    <result column="t_level" jdbcType="INTEGER" property="tLevel" />
+    <result column="t_pos" jdbcType="INTEGER" property="tPos" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="s_level" jdbcType="INTEGER" property="sLevel" />
+    <result column="s_pos" jdbcType="INTEGER" property="sPos" />
+    <result column="s_location" jdbcType="INTEGER" property="sLocation" />
+    <result column="e_level" jdbcType="INTEGER" property="eLevel" />
+    <result column="e_pos" jdbcType="INTEGER" property="ePos" />
+    <result column="e_location" jdbcType="INTEGER" property="eLocation" />
+    <result column="r_level" jdbcType="INTEGER" property="rLevel" />
+    <result column="r_pos" jdbcType="INTEGER" property="rPos" />
+    <result column="r_location" jdbcType="INTEGER" property="rLocation" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="box_number" jdbcType="VARCHAR" property="boxNumber" />
+    <result column="weight" jdbcType="INTEGER" property="weight" />
+    <result column="priority" jdbcType="INTEGER" property="priority" />
+    <result column="car_number" jdbcType="INTEGER" property="carNumber" />
+    <result column="aisle" jdbcType="VARCHAR" property="aisle" />
+    <result column="area" jdbcType="VARCHAR" property="area" />
+    <result column="wmsid" jdbcType="VARCHAR" property="wmsid" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="assign_time" jdbcType="TIMESTAMP" property="assignTime" />
+    <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="finish_time" jdbcType="TIMESTAMP" property="finishTime" />
+    <result column="announce_id" jdbcType="INTEGER" property="announceId" />
+    <result column="target_pos" jdbcType="VARCHAR" property="targetPos" />
+    <result column="target_side" jdbcType="VARCHAR" property="targetSide" />
+    <result column="dead_line" jdbcType="TIMESTAMP" property="deadLine" />
+    <result column="lift_area" jdbcType="VARCHAR" property="liftArea" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="box_type" jdbcType="INTEGER" property="boxType" />
+    <result column="Container_status" jdbcType="INTEGER" property="containerStatus" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, o_level, o_pos, t_level, t_pos, `type`, s_level, s_pos, s_location, e_level, 
+    e_pos, e_location, r_level, r_pos, r_location, `state`, box_number, weight, priority, 
+    car_number, aisle, area, wmsid, create_time, assign_time, start_time, finish_time, 
+    announce_id, target_pos, target_side, dead_line, lift_area, `status`, box_type, Container_status
+  </sql>
+  <select id="selectByExample" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTaskExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from ga_task
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+    <if test="limit != null">
+      <if test="offset != null">
+        limit ${offset}, ${limit}
+      </if>
+      <if test="offset == null">
+        limit ${limit}
+      </if>
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from ga_task
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ga_task
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTaskExample">
+    delete from ga_task
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTask">
+    insert into ga_task (id, o_level, o_pos, 
+      t_level, t_pos, `type`, 
+      s_level, s_pos, s_location, 
+      e_level, e_pos, e_location, 
+      r_level, r_pos, r_location, 
+      `state`, box_number, weight, 
+      priority, car_number, aisle, 
+      area, wmsid, create_time, 
+      assign_time, start_time, finish_time, 
+      announce_id, target_pos, target_side, 
+      dead_line, lift_area, `status`, 
+      box_type, Container_status)
+    values (#{id,jdbcType=INTEGER}, #{oLevel,jdbcType=INTEGER}, #{oPos,jdbcType=INTEGER}, 
+      #{tLevel,jdbcType=INTEGER}, #{tPos,jdbcType=INTEGER}, #{type,jdbcType=INTEGER}, 
+      #{sLevel,jdbcType=INTEGER}, #{sPos,jdbcType=INTEGER}, #{sLocation,jdbcType=INTEGER}, 
+      #{eLevel,jdbcType=INTEGER}, #{ePos,jdbcType=INTEGER}, #{eLocation,jdbcType=INTEGER}, 
+      #{rLevel,jdbcType=INTEGER}, #{rPos,jdbcType=INTEGER}, #{rLocation,jdbcType=INTEGER}, 
+      #{state,jdbcType=INTEGER}, #{boxNumber,jdbcType=VARCHAR}, #{weight,jdbcType=INTEGER}, 
+      #{priority,jdbcType=INTEGER}, #{carNumber,jdbcType=INTEGER}, #{aisle,jdbcType=VARCHAR}, 
+      #{area,jdbcType=VARCHAR}, #{wmsid,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{assignTime,jdbcType=TIMESTAMP}, #{startTime,jdbcType=TIMESTAMP}, #{finishTime,jdbcType=TIMESTAMP}, 
+      #{announceId,jdbcType=INTEGER}, #{targetPos,jdbcType=VARCHAR}, #{targetSide,jdbcType=VARCHAR}, 
+      #{deadLine,jdbcType=TIMESTAMP}, #{liftArea,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, 
+      #{boxType,jdbcType=INTEGER}, #{containerStatus,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTask">
+    insert into ga_task
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="oLevel != null">
+        o_level,
+      </if>
+      <if test="oPos != null">
+        o_pos,
+      </if>
+      <if test="tLevel != null">
+        t_level,
+      </if>
+      <if test="tPos != null">
+        t_pos,
+      </if>
+      <if test="type != null">
+        `type`,
+      </if>
+      <if test="sLevel != null">
+        s_level,
+      </if>
+      <if test="sPos != null">
+        s_pos,
+      </if>
+      <if test="sLocation != null">
+        s_location,
+      </if>
+      <if test="eLevel != null">
+        e_level,
+      </if>
+      <if test="ePos != null">
+        e_pos,
+      </if>
+      <if test="eLocation != null">
+        e_location,
+      </if>
+      <if test="rLevel != null">
+        r_level,
+      </if>
+      <if test="rPos != null">
+        r_pos,
+      </if>
+      <if test="rLocation != null">
+        r_location,
+      </if>
+      <if test="state != null">
+        `state`,
+      </if>
+      <if test="boxNumber != null">
+        box_number,
+      </if>
+      <if test="weight != null">
+        weight,
+      </if>
+      <if test="priority != null">
+        priority,
+      </if>
+      <if test="carNumber != null">
+        car_number,
+      </if>
+      <if test="aisle != null">
+        aisle,
+      </if>
+      <if test="area != null">
+        area,
+      </if>
+      <if test="wmsid != null">
+        wmsid,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="assignTime != null">
+        assign_time,
+      </if>
+      <if test="startTime != null">
+        start_time,
+      </if>
+      <if test="finishTime != null">
+        finish_time,
+      </if>
+      <if test="announceId != null">
+        announce_id,
+      </if>
+      <if test="targetPos != null">
+        target_pos,
+      </if>
+      <if test="targetSide != null">
+        target_side,
+      </if>
+      <if test="deadLine != null">
+        dead_line,
+      </if>
+      <if test="liftArea != null">
+        lift_area,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="boxType != null">
+        box_type,
+      </if>
+      <if test="containerStatus != null">
+        Container_status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="oLevel != null">
+        #{oLevel,jdbcType=INTEGER},
+      </if>
+      <if test="oPos != null">
+        #{oPos,jdbcType=INTEGER},
+      </if>
+      <if test="tLevel != null">
+        #{tLevel,jdbcType=INTEGER},
+      </if>
+      <if test="tPos != null">
+        #{tPos,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+      <if test="sLevel != null">
+        #{sLevel,jdbcType=INTEGER},
+      </if>
+      <if test="sPos != null">
+        #{sPos,jdbcType=INTEGER},
+      </if>
+      <if test="sLocation != null">
+        #{sLocation,jdbcType=INTEGER},
+      </if>
+      <if test="eLevel != null">
+        #{eLevel,jdbcType=INTEGER},
+      </if>
+      <if test="ePos != null">
+        #{ePos,jdbcType=INTEGER},
+      </if>
+      <if test="eLocation != null">
+        #{eLocation,jdbcType=INTEGER},
+      </if>
+      <if test="rLevel != null">
+        #{rLevel,jdbcType=INTEGER},
+      </if>
+      <if test="rPos != null">
+        #{rPos,jdbcType=INTEGER},
+      </if>
+      <if test="rLocation != null">
+        #{rLocation,jdbcType=INTEGER},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=INTEGER},
+      </if>
+      <if test="boxNumber != null">
+        #{boxNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="weight != null">
+        #{weight,jdbcType=INTEGER},
+      </if>
+      <if test="priority != null">
+        #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="carNumber != null">
+        #{carNumber,jdbcType=INTEGER},
+      </if>
+      <if test="aisle != null">
+        #{aisle,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null">
+        #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="wmsid != null">
+        #{wmsid,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="assignTime != null">
+        #{assignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null">
+        #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="announceId != null">
+        #{announceId,jdbcType=INTEGER},
+      </if>
+      <if test="targetPos != null">
+        #{targetPos,jdbcType=VARCHAR},
+      </if>
+      <if test="targetSide != null">
+        #{targetSide,jdbcType=VARCHAR},
+      </if>
+      <if test="deadLine != null">
+        #{deadLine,jdbcType=TIMESTAMP},
+      </if>
+      <if test="liftArea != null">
+        #{liftArea,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="boxType != null">
+        #{boxType,jdbcType=INTEGER},
+      </if>
+      <if test="containerStatus != null">
+        #{containerStatus,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTaskExample" resultType="java.lang.Long">
+    select count(*) from ga_task
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update ga_task
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.oLevel != null">
+        o_level = #{record.oLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.oPos != null">
+        o_pos = #{record.oPos,jdbcType=INTEGER},
+      </if>
+      <if test="record.tLevel != null">
+        t_level = #{record.tLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.tPos != null">
+        t_pos = #{record.tPos,jdbcType=INTEGER},
+      </if>
+      <if test="record.type != null">
+        `type` = #{record.type,jdbcType=INTEGER},
+      </if>
+      <if test="record.sLevel != null">
+        s_level = #{record.sLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.sPos != null">
+        s_pos = #{record.sPos,jdbcType=INTEGER},
+      </if>
+      <if test="record.sLocation != null">
+        s_location = #{record.sLocation,jdbcType=INTEGER},
+      </if>
+      <if test="record.eLevel != null">
+        e_level = #{record.eLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.ePos != null">
+        e_pos = #{record.ePos,jdbcType=INTEGER},
+      </if>
+      <if test="record.eLocation != null">
+        e_location = #{record.eLocation,jdbcType=INTEGER},
+      </if>
+      <if test="record.rLevel != null">
+        r_level = #{record.rLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.rPos != null">
+        r_pos = #{record.rPos,jdbcType=INTEGER},
+      </if>
+      <if test="record.rLocation != null">
+        r_location = #{record.rLocation,jdbcType=INTEGER},
+      </if>
+      <if test="record.state != null">
+        `state` = #{record.state,jdbcType=INTEGER},
+      </if>
+      <if test="record.boxNumber != null">
+        box_number = #{record.boxNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="record.weight != null">
+        weight = #{record.weight,jdbcType=INTEGER},
+      </if>
+      <if test="record.priority != null">
+        priority = #{record.priority,jdbcType=INTEGER},
+      </if>
+      <if test="record.carNumber != null">
+        car_number = #{record.carNumber,jdbcType=INTEGER},
+      </if>
+      <if test="record.aisle != null">
+        aisle = #{record.aisle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.area != null">
+        area = #{record.area,jdbcType=VARCHAR},
+      </if>
+      <if test="record.wmsid != null">
+        wmsid = #{record.wmsid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null">
+        create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.assignTime != null">
+        assign_time = #{record.assignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.startTime != null">
+        start_time = #{record.startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.finishTime != null">
+        finish_time = #{record.finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.announceId != null">
+        announce_id = #{record.announceId,jdbcType=INTEGER},
+      </if>
+      <if test="record.targetPos != null">
+        target_pos = #{record.targetPos,jdbcType=VARCHAR},
+      </if>
+      <if test="record.targetSide != null">
+        target_side = #{record.targetSide,jdbcType=VARCHAR},
+      </if>
+      <if test="record.deadLine != null">
+        dead_line = #{record.deadLine,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.liftArea != null">
+        lift_area = #{record.liftArea,jdbcType=VARCHAR},
+      </if>
+      <if test="record.status != null">
+        `status` = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.boxType != null">
+        box_type = #{record.boxType,jdbcType=INTEGER},
+      </if>
+      <if test="record.containerStatus != null">
+        Container_status = #{record.containerStatus,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update ga_task
+    set id = #{record.id,jdbcType=INTEGER},
+      o_level = #{record.oLevel,jdbcType=INTEGER},
+      o_pos = #{record.oPos,jdbcType=INTEGER},
+      t_level = #{record.tLevel,jdbcType=INTEGER},
+      t_pos = #{record.tPos,jdbcType=INTEGER},
+      `type` = #{record.type,jdbcType=INTEGER},
+      s_level = #{record.sLevel,jdbcType=INTEGER},
+      s_pos = #{record.sPos,jdbcType=INTEGER},
+      s_location = #{record.sLocation,jdbcType=INTEGER},
+      e_level = #{record.eLevel,jdbcType=INTEGER},
+      e_pos = #{record.ePos,jdbcType=INTEGER},
+      e_location = #{record.eLocation,jdbcType=INTEGER},
+      r_level = #{record.rLevel,jdbcType=INTEGER},
+      r_pos = #{record.rPos,jdbcType=INTEGER},
+      r_location = #{record.rLocation,jdbcType=INTEGER},
+      `state` = #{record.state,jdbcType=INTEGER},
+      box_number = #{record.boxNumber,jdbcType=VARCHAR},
+      weight = #{record.weight,jdbcType=INTEGER},
+      priority = #{record.priority,jdbcType=INTEGER},
+      car_number = #{record.carNumber,jdbcType=INTEGER},
+      aisle = #{record.aisle,jdbcType=VARCHAR},
+      area = #{record.area,jdbcType=VARCHAR},
+      wmsid = #{record.wmsid,jdbcType=VARCHAR},
+      create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      assign_time = #{record.assignTime,jdbcType=TIMESTAMP},
+      start_time = #{record.startTime,jdbcType=TIMESTAMP},
+      finish_time = #{record.finishTime,jdbcType=TIMESTAMP},
+      announce_id = #{record.announceId,jdbcType=INTEGER},
+      target_pos = #{record.targetPos,jdbcType=VARCHAR},
+      target_side = #{record.targetSide,jdbcType=VARCHAR},
+      dead_line = #{record.deadLine,jdbcType=TIMESTAMP},
+      lift_area = #{record.liftArea,jdbcType=VARCHAR},
+      `status` = #{record.status,jdbcType=INTEGER},
+      box_type = #{record.boxType,jdbcType=INTEGER},
+      Container_status = #{record.containerStatus,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTask">
+    update ga_task
+    <set>
+      <if test="oLevel != null">
+        o_level = #{oLevel,jdbcType=INTEGER},
+      </if>
+      <if test="oPos != null">
+        o_pos = #{oPos,jdbcType=INTEGER},
+      </if>
+      <if test="tLevel != null">
+        t_level = #{tLevel,jdbcType=INTEGER},
+      </if>
+      <if test="tPos != null">
+        t_pos = #{tPos,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        `type` = #{type,jdbcType=INTEGER},
+      </if>
+      <if test="sLevel != null">
+        s_level = #{sLevel,jdbcType=INTEGER},
+      </if>
+      <if test="sPos != null">
+        s_pos = #{sPos,jdbcType=INTEGER},
+      </if>
+      <if test="sLocation != null">
+        s_location = #{sLocation,jdbcType=INTEGER},
+      </if>
+      <if test="eLevel != null">
+        e_level = #{eLevel,jdbcType=INTEGER},
+      </if>
+      <if test="ePos != null">
+        e_pos = #{ePos,jdbcType=INTEGER},
+      </if>
+      <if test="eLocation != null">
+        e_location = #{eLocation,jdbcType=INTEGER},
+      </if>
+      <if test="rLevel != null">
+        r_level = #{rLevel,jdbcType=INTEGER},
+      </if>
+      <if test="rPos != null">
+        r_pos = #{rPos,jdbcType=INTEGER},
+      </if>
+      <if test="rLocation != null">
+        r_location = #{rLocation,jdbcType=INTEGER},
+      </if>
+      <if test="state != null">
+        `state` = #{state,jdbcType=INTEGER},
+      </if>
+      <if test="boxNumber != null">
+        box_number = #{boxNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="weight != null">
+        weight = #{weight,jdbcType=INTEGER},
+      </if>
+      <if test="priority != null">
+        priority = #{priority,jdbcType=INTEGER},
+      </if>
+      <if test="carNumber != null">
+        car_number = #{carNumber,jdbcType=INTEGER},
+      </if>
+      <if test="aisle != null">
+        aisle = #{aisle,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null">
+        area = #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="wmsid != null">
+        wmsid = #{wmsid,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="assignTime != null">
+        assign_time = #{assignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null">
+        start_time = #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="announceId != null">
+        announce_id = #{announceId,jdbcType=INTEGER},
+      </if>
+      <if test="targetPos != null">
+        target_pos = #{targetPos,jdbcType=VARCHAR},
+      </if>
+      <if test="targetSide != null">
+        target_side = #{targetSide,jdbcType=VARCHAR},
+      </if>
+      <if test="deadLine != null">
+        dead_line = #{deadLine,jdbcType=TIMESTAMP},
+      </if>
+      <if test="liftArea != null">
+        lift_area = #{liftArea,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="boxType != null">
+        box_type = #{boxType,jdbcType=INTEGER},
+      </if>
+      <if test="containerStatus != null">
+        Container_status = #{containerStatus,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTask">
+    update ga_task
+    set o_level = #{oLevel,jdbcType=INTEGER},
+      o_pos = #{oPos,jdbcType=INTEGER},
+      t_level = #{tLevel,jdbcType=INTEGER},
+      t_pos = #{tPos,jdbcType=INTEGER},
+      `type` = #{type,jdbcType=INTEGER},
+      s_level = #{sLevel,jdbcType=INTEGER},
+      s_pos = #{sPos,jdbcType=INTEGER},
+      s_location = #{sLocation,jdbcType=INTEGER},
+      e_level = #{eLevel,jdbcType=INTEGER},
+      e_pos = #{ePos,jdbcType=INTEGER},
+      e_location = #{eLocation,jdbcType=INTEGER},
+      r_level = #{rLevel,jdbcType=INTEGER},
+      r_pos = #{rPos,jdbcType=INTEGER},
+      r_location = #{rLocation,jdbcType=INTEGER},
+      `state` = #{state,jdbcType=INTEGER},
+      box_number = #{boxNumber,jdbcType=VARCHAR},
+      weight = #{weight,jdbcType=INTEGER},
+      priority = #{priority,jdbcType=INTEGER},
+      car_number = #{carNumber,jdbcType=INTEGER},
+      aisle = #{aisle,jdbcType=VARCHAR},
+      area = #{area,jdbcType=VARCHAR},
+      wmsid = #{wmsid,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      assign_time = #{assignTime,jdbcType=TIMESTAMP},
+      start_time = #{startTime,jdbcType=TIMESTAMP},
+      finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      announce_id = #{announceId,jdbcType=INTEGER},
+      target_pos = #{targetPos,jdbcType=VARCHAR},
+      target_side = #{targetSide,jdbcType=VARCHAR},
+      dead_line = #{deadLine,jdbcType=TIMESTAMP},
+      lift_area = #{liftArea,jdbcType=VARCHAR},
+      `status` = #{status,jdbcType=INTEGER},
+      box_type = #{boxType,jdbcType=INTEGER},
+      Container_status = #{containerStatus,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="incrementPriority" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaTask">
+      update ga_task set priority = (priority + ${priority})
+      where wmsid = #{wmsid} and box_number = #{boxNumber} and status = 0
+  </update>
+</mapper>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.galaxis.wcs.yanfeng.database.wcs.mapper.GaFlashstateMapper">
+  <resultMap id="BaseResultMap" type="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstate">
+    <id column="car_number" jdbcType="INTEGER" property="carNumber" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="car_level" jdbcType="INTEGER" property="carLevel" />
+    <result column="car_pos" jdbcType="INTEGER" property="carPos" />
+    <result column="flash_state" jdbcType="INTEGER" property="flashState" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="port" jdbcType="INTEGER" property="port" />
+    <result column="wmsCommand" jdbcType="INTEGER" property="wmscommand" />
+    <result column="workmode" jdbcType="INTEGER" property="workmode" />
+    <result column="is_active" jdbcType="INTEGER" property="isActive" />
+    <result column="order_lift_no" jdbcType="INTEGER" property="orderLiftNo" />
+    <result column="n_level" jdbcType="INTEGER" property="nLevel" />
+    <result column="inout_possible" jdbcType="INTEGER" property="inoutPossible" />
+    <result column="n_pos" jdbcType="INTEGER" property="nPos" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    car_number, `type`, car_level, car_pos, flash_state, ip, port, wmsCommand, workmode, 
+    is_active, order_lift_no, n_level, inout_possible, n_pos
+  </sql>
+  <select id="selectByExample" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstateExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from ga_flashstate
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+    <if test="limit != null">
+      <if test="offset != null">
+        limit ${offset}, ${limit}
+      </if>
+      <if test="offset == null">
+        limit ${limit}
+      </if>
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from ga_flashstate
+    where car_number = #{carNumber,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ga_flashstate
+    where car_number = #{carNumber,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstateExample">
+    delete from ga_flashstate
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstate">
+    insert into ga_flashstate (car_number, `type`, car_level, 
+      car_pos, flash_state, ip, 
+      port, wmsCommand, workmode, 
+      is_active, order_lift_no, n_level, 
+      inout_possible, n_pos)
+    values (#{carNumber,jdbcType=INTEGER}, #{type,jdbcType=VARCHAR}, #{carLevel,jdbcType=INTEGER}, 
+      #{carPos,jdbcType=INTEGER}, #{flashState,jdbcType=INTEGER}, #{ip,jdbcType=VARCHAR}, 
+      #{port,jdbcType=INTEGER}, #{wmscommand,jdbcType=INTEGER}, #{workmode,jdbcType=INTEGER}, 
+      #{isActive,jdbcType=INTEGER}, #{orderLiftNo,jdbcType=INTEGER}, #{nLevel,jdbcType=INTEGER}, 
+      #{inoutPossible,jdbcType=INTEGER}, #{nPos,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstate">
+    insert into ga_flashstate
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="carNumber != null">
+        car_number,
+      </if>
+      <if test="type != null">
+        `type`,
+      </if>
+      <if test="carLevel != null">
+        car_level,
+      </if>
+      <if test="carPos != null">
+        car_pos,
+      </if>
+      <if test="flashState != null">
+        flash_state,
+      </if>
+      <if test="ip != null">
+        ip,
+      </if>
+      <if test="port != null">
+        port,
+      </if>
+      <if test="wmscommand != null">
+        wmsCommand,
+      </if>
+      <if test="workmode != null">
+        workmode,
+      </if>
+      <if test="isActive != null">
+        is_active,
+      </if>
+      <if test="orderLiftNo != null">
+        order_lift_no,
+      </if>
+      <if test="nLevel != null">
+        n_level,
+      </if>
+      <if test="inoutPossible != null">
+        inout_possible,
+      </if>
+      <if test="nPos != null">
+        n_pos,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="carNumber != null">
+        #{carNumber,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="carLevel != null">
+        #{carLevel,jdbcType=INTEGER},
+      </if>
+      <if test="carPos != null">
+        #{carPos,jdbcType=INTEGER},
+      </if>
+      <if test="flashState != null">
+        #{flashState,jdbcType=INTEGER},
+      </if>
+      <if test="ip != null">
+        #{ip,jdbcType=VARCHAR},
+      </if>
+      <if test="port != null">
+        #{port,jdbcType=INTEGER},
+      </if>
+      <if test="wmscommand != null">
+        #{wmscommand,jdbcType=INTEGER},
+      </if>
+      <if test="workmode != null">
+        #{workmode,jdbcType=INTEGER},
+      </if>
+      <if test="isActive != null">
+        #{isActive,jdbcType=INTEGER},
+      </if>
+      <if test="orderLiftNo != null">
+        #{orderLiftNo,jdbcType=INTEGER},
+      </if>
+      <if test="nLevel != null">
+        #{nLevel,jdbcType=INTEGER},
+      </if>
+      <if test="inoutPossible != null">
+        #{inoutPossible,jdbcType=INTEGER},
+      </if>
+      <if test="nPos != null">
+        #{nPos,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstateExample" resultType="java.lang.Long">
+    select count(*) from ga_flashstate
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update ga_flashstate
+    <set>
+      <if test="record.carNumber != null">
+        car_number = #{record.carNumber,jdbcType=INTEGER},
+      </if>
+      <if test="record.type != null">
+        `type` = #{record.type,jdbcType=VARCHAR},
+      </if>
+      <if test="record.carLevel != null">
+        car_level = #{record.carLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.carPos != null">
+        car_pos = #{record.carPos,jdbcType=INTEGER},
+      </if>
+      <if test="record.flashState != null">
+        flash_state = #{record.flashState,jdbcType=INTEGER},
+      </if>
+      <if test="record.ip != null">
+        ip = #{record.ip,jdbcType=VARCHAR},
+      </if>
+      <if test="record.port != null">
+        port = #{record.port,jdbcType=INTEGER},
+      </if>
+      <if test="record.wmscommand != null">
+        wmsCommand = #{record.wmscommand,jdbcType=INTEGER},
+      </if>
+      <if test="record.workmode != null">
+        workmode = #{record.workmode,jdbcType=INTEGER},
+      </if>
+      <if test="record.isActive != null">
+        is_active = #{record.isActive,jdbcType=INTEGER},
+      </if>
+      <if test="record.orderLiftNo != null">
+        order_lift_no = #{record.orderLiftNo,jdbcType=INTEGER},
+      </if>
+      <if test="record.nLevel != null">
+        n_level = #{record.nLevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.inoutPossible != null">
+        inout_possible = #{record.inoutPossible,jdbcType=INTEGER},
+      </if>
+      <if test="record.nPos != null">
+        n_pos = #{record.nPos,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update ga_flashstate
+    set car_number = #{record.carNumber,jdbcType=INTEGER},
+      `type` = #{record.type,jdbcType=VARCHAR},
+      car_level = #{record.carLevel,jdbcType=INTEGER},
+      car_pos = #{record.carPos,jdbcType=INTEGER},
+      flash_state = #{record.flashState,jdbcType=INTEGER},
+      ip = #{record.ip,jdbcType=VARCHAR},
+      port = #{record.port,jdbcType=INTEGER},
+      wmsCommand = #{record.wmscommand,jdbcType=INTEGER},
+      workmode = #{record.workmode,jdbcType=INTEGER},
+      is_active = #{record.isActive,jdbcType=INTEGER},
+      order_lift_no = #{record.orderLiftNo,jdbcType=INTEGER},
+      n_level = #{record.nLevel,jdbcType=INTEGER},
+      inout_possible = #{record.inoutPossible,jdbcType=INTEGER},
+      n_pos = #{record.nPos,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstate">
+    update ga_flashstate
+    <set>
+      <if test="type != null">
+        `type` = #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="carLevel != null">
+        car_level = #{carLevel,jdbcType=INTEGER},
+      </if>
+      <if test="carPos != null">
+        car_pos = #{carPos,jdbcType=INTEGER},
+      </if>
+      <if test="flashState != null">
+        flash_state = #{flashState,jdbcType=INTEGER},
+      </if>
+      <if test="ip != null">
+        ip = #{ip,jdbcType=VARCHAR},
+      </if>
+      <if test="port != null">
+        port = #{port,jdbcType=INTEGER},
+      </if>
+      <if test="wmscommand != null">
+        wmsCommand = #{wmscommand,jdbcType=INTEGER},
+      </if>
+      <if test="workmode != null">
+        workmode = #{workmode,jdbcType=INTEGER},
+      </if>
+      <if test="isActive != null">
+        is_active = #{isActive,jdbcType=INTEGER},
+      </if>
+      <if test="orderLiftNo != null">
+        order_lift_no = #{orderLiftNo,jdbcType=INTEGER},
+      </if>
+      <if test="nLevel != null">
+        n_level = #{nLevel,jdbcType=INTEGER},
+      </if>
+      <if test="inoutPossible != null">
+        inout_possible = #{inoutPossible,jdbcType=INTEGER},
+      </if>
+      <if test="nPos != null">
+        n_pos = #{nPos,jdbcType=INTEGER},
+      </if>
+    </set>
+    where car_number = #{carNumber,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.galaxis.wcs.yanfeng.database.wcs.domain.GaFlashstate">
+    update ga_flashstate
+    set `type` = #{type,jdbcType=VARCHAR},
+      car_level = #{carLevel,jdbcType=INTEGER},
+      car_pos = #{carPos,jdbcType=INTEGER},
+      flash_state = #{flashState,jdbcType=INTEGER},
+      ip = #{ip,jdbcType=VARCHAR},
+      port = #{port,jdbcType=INTEGER},
+      wmsCommand = #{wmscommand,jdbcType=INTEGER},
+      workmode = #{workmode,jdbcType=INTEGER},
+      is_active = #{isActive,jdbcType=INTEGER},
+      order_lift_no = #{orderLiftNo,jdbcType=INTEGER},
+      n_level = #{nLevel,jdbcType=INTEGER},
+      inout_possible = #{inoutPossible,jdbcType=INTEGER},
+      n_pos = #{nPos,jdbcType=INTEGER}
+    where car_number = #{carNumber,jdbcType=INTEGER}
+  </update>
+</mapper>

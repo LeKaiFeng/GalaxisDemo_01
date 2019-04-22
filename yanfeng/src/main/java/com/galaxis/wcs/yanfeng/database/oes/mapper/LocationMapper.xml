@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.galaxis.wcs.yanfeng.database.oes.mapper.LocationMapper">
+  <resultMap id="BaseResultMap" type="com.galaxis.wcs.yanfeng.database.oes.domain.Location">
+    <id column="level" jdbcType="INTEGER" property="level" />
+    <id column="location" jdbcType="INTEGER" property="location" />
+    <result column="area" jdbcType="VARCHAR" property="area" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="box_number" jdbcType="VARCHAR" property="boxNumber" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    `level`, `location`, area, `type`, description, `status`, box_number
+  </sql>
+  <select id="selectByExample" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.LocationExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_location
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+    <if test="limit != null">
+      <if test="offset != null">
+        limit ${offset}, ${limit}
+      </if>
+      <if test="offset == null">
+        limit ${limit}
+      </if>
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.LocationKey" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_location
+    where `level` = #{level,jdbcType=INTEGER}
+      and `location` = #{location,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.LocationKey">
+    delete from t_location
+    where `level` = #{level,jdbcType=INTEGER}
+      and `location` = #{location,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.LocationExample">
+    delete from t_location
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Location">
+    insert into t_location (`level`, `location`, area, 
+      `type`, description, `status`, 
+      box_number)
+    values (#{level,jdbcType=INTEGER}, #{location,jdbcType=INTEGER}, #{area,jdbcType=VARCHAR}, 
+      #{type,jdbcType=INTEGER}, #{description,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, 
+      #{boxNumber,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Location">
+    insert into t_location
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="level != null">
+        `level`,
+      </if>
+      <if test="location != null">
+        `location`,
+      </if>
+      <if test="area != null">
+        area,
+      </if>
+      <if test="type != null">
+        `type`,
+      </if>
+      <if test="description != null">
+        description,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="boxNumber != null">
+        box_number,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="level != null">
+        #{level,jdbcType=INTEGER},
+      </if>
+      <if test="location != null">
+        #{location,jdbcType=INTEGER},
+      </if>
+      <if test="area != null">
+        #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+      <if test="description != null">
+        #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="boxNumber != null">
+        #{boxNumber,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.LocationExample" resultType="java.lang.Long">
+    select count(*) from t_location
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <select id="selectFreeLocation" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List"/>
+    FROM t_location l WHERE
+    type = 21 AND `level` = #{level} AND `status` = 0 ORDER BY ABS(l.location - #{location})
+  </select>
+  <select id="selectLevels" resultType="java.lang.Integer">
+    select distinct level from t_location
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update t_location
+    <set>
+      <if test="record.level != null">
+        `level` = #{record.level,jdbcType=INTEGER},
+      </if>
+      <if test="record.location != null">
+        `location` = #{record.location,jdbcType=INTEGER},
+      </if>
+      <if test="record.area != null">
+        area = #{record.area,jdbcType=VARCHAR},
+      </if>
+      <if test="record.type != null">
+        `type` = #{record.type,jdbcType=INTEGER},
+      </if>
+      <if test="record.description != null">
+        description = #{record.description,jdbcType=VARCHAR},
+      </if>
+      <if test="record.status != null">
+        `status` = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.boxNumber != null">
+        box_number = #{record.boxNumber,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update t_location
+    set `level` = #{record.level,jdbcType=INTEGER},
+      `location` = #{record.location,jdbcType=INTEGER},
+      area = #{record.area,jdbcType=VARCHAR},
+      `type` = #{record.type,jdbcType=INTEGER},
+      description = #{record.description,jdbcType=VARCHAR},
+      `status` = #{record.status,jdbcType=INTEGER},
+      box_number = #{record.boxNumber,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Location">
+    update t_location
+    <set>
+      <if test="area != null">
+        area = #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        `type` = #{type,jdbcType=INTEGER},
+      </if>
+      <if test="description != null">
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="boxNumber != null">
+        box_number = #{boxNumber,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where `level` = #{level,jdbcType=INTEGER}
+      and `location` = #{location,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.galaxis.wcs.yanfeng.database.oes.domain.Location">
+    update t_location
+    set area = #{area,jdbcType=VARCHAR},
+      `type` = #{type,jdbcType=INTEGER},
+      description = #{description,jdbcType=VARCHAR},
+      `status` = #{status,jdbcType=INTEGER},
+      box_number = #{boxNumber,jdbcType=VARCHAR}
+    where `level` = #{level,jdbcType=INTEGER}
+      and `location` = #{location,jdbcType=INTEGER}
+  </update>
+  <update id="updateStatusByPrimaryKey">
+      update t_location
+    set
+      `status` = #{status,jdbcType=INTEGER},
+      box_number = #{boxNumber,jdbcType=VARCHAR}
+    where `level` = #{level,jdbcType=INTEGER}
+      and `location` = #{location,jdbcType=INTEGER}
+  </update>
+</mapper>

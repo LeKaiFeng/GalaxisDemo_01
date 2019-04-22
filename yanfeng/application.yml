@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: db
+server:
+  port: 8082
+# 任务调度的延时, 单位: 秒
+schedule:
+  # 任务调度系统的线程池核心线程数
+  pool:
+    core: 8
+  delay:
+    init: 2000
+    short: 2000
+    middle: 20000
+    long: 60000
+    sync-box: 600000
+logging:
+  config: ./logback-spring.xml
+  level.com.galaxis.wcs.yanfeng.database.oes.mapper: debug
+#  level.com.galaxis.wcs.yanfeng.device.line: debug
+#  level.com.galaxis.wcs.yanfeng.work.manager.KtManager: debug
+mybatis:
+  mapper-locations:
+    - "classpath*:com.galaxis.wcs.yanfeng.database.wms.mapper"
+    - "classpath*:com.galaxis.wcs.yanfeng.database.oes.mapper"
+    - "classpath*:com.galaxis.wcs.yanfeng.database.wcs.mapper"

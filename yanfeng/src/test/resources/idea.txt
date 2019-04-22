@@ -1,0 +1,10 @@
+11.27
+    1. 使用aio与plc交互, 接收到消息之后封装LineRequest, 交给 dispatcher处理, 返回LineResponse, 然后发送给PLC
+11.21
+    1. 每一个PlcLine都阻塞读, 读到了之后封装LineRequest, 交给dispatcher处理, 返回LineResponse, 然后发送给PLC
+    2. PlcLine通过Line的信息new出来, init()后就阻塞读取
+11.19
+    1. 生成子任务的时候, 一个plc的seq对应一个子任务
+11.14
+    1. 主任务使用状态模式管理
+    2. 子任务采用责任链模式管理

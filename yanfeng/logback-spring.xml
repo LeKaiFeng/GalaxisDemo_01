@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60000" debug="false">
+    <!-- 路径 -->
+    <property name="LOG_PATH" value="logs"/>
+    <property name="FILE_NAME_PATTERN" value="oes_device_%d{yyyy-MM-dd}"/>
+    <!-- 输出格式 -->
+    <property name="CONSOLE_PATTERN" value="[%-12d{HH:mm:ss.SSS}][%-5level][%-25thread] %msg%n"/>
+    <property name="FILE_PATTERN"
+              value="[%-12d{HH:mm:ss.SSS}][%-5level][%-50logger{50} :%-3L][%-25thread] %msg%n"/>
+
+    <!-- 日志记录器，日期滚动记录 -->
+    <!-- 控制台输出 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder
+                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- 格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符 --> <!-- <pattern>[%d{HH:mm:ss.SSS}][%p] %m%n</pattern> -->
+            <pattern>${CONSOLE_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <!-- 指定级别日志 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${LOG_PATH}/${FILE_NAME_PATTERN}.log</FileNamePattern>
+            <MaxHistory>7</MaxHistory>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${FILE_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 日志logger -->
+    <!-- 生产环境下，将此级别配置为适合的级别，以免日志文件太多或影响程序性能 -->
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+        <!-- 生产环境将请stdout,testfile去掉 -->
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <!--<logger name="com.me.test.boot_test.server" level="debug"/>-->
+</configuration>
