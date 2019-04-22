@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <SystemSet>  
+    <wmsip>127.0.0.1</wmsip> <!--顺丰上位IP-->
+    <wmsprot>11</wmsprot>
+
+
+    <wcsip>10.1.3.207</wcsip>
+    <wcsprot>11007</wcsprot>
+    
+    <scanip>192.168.1.2</scanip>  
+    <prot>51236</prot>
+   
+    <clearLog>3</clearLog>//清除7天前的日志
+    <clearData>20</clearData>//清除7天前的数据日志 
+    <choosecount>9</choosecount><!--//拣选口的数量-->
+  </SystemSet>
+ 
+</NewDataSet>

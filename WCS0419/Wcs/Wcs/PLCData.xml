@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+ 
+ 
+  <PlcData>
+  
+    <plcname vlaue ="FromPlc_seq%">
+        <plcvalaue>S7_1200.DB1.PlcToWcs_seq</plcvalaue>
+    </plcname>
+
+    <plcname vlaue ="FromPlc_barcode%">
+        <plcvalaue>S7_1200.DB1.PlcToWcs_barcode</plcvalaue>
+    </plcname>
+    
+    <plcname vlaue ="ToPlc_seq%">
+        <plcvalaue>S7_1200.DB1.WcsToPlc_seq</plcvalaue>
+    </plcname>
+    <plcname vlaue ="ToPlc_barcode%">
+        <plcvalaue>S7_1200.DB1.WcsToPlc_barcode</plcvalaue>
+    </plcname>
+    <plcname vlaue ="ToPlc_bag%">
+        <plcvalaue>S7_1200.DB1.WcsToPlc_bag</plcvalaue>
+    </plcname>
+    
+    <plcname vlaue="EndBag0%"><plcvalaue>S7_1200.DB1.SL_Date[0]</plcvalaue></plcname>
+    <plcname vlaue="EndBag1%"><plcvalaue>S7_1200.DB1.SL_Date[1]</plcvalaue></plcname>
+    <plcname vlaue="EndBag2%"><plcvalaue>S7_1200.DB1.SL_Date[2]</plcvalaue></plcname>
+    <plcname vlaue="EndBag3%"><plcvalaue>S7_1200.DB1.SL_Date[3]</plcvalaue></plcname>
+    <plcname vlaue="EndBag4%"><plcvalaue>S7_1200.DB1.SL_Date[4]</plcvalaue></plcname>
+    <plcname vlaue="EndBag5%"><plcvalaue>S7_1200.DB1.SL_Date[5]</plcvalaue></plcname>
+    <plcname vlaue="EndBag6%"><plcvalaue>S7_1200.DB1.SL_Date[6]</plcvalaue></plcname>
+    <plcname vlaue="EndBag7%"><plcvalaue>S7_1200.DB1.SL_Date[7]</plcvalaue></plcname>
+    <plcname vlaue="EndBag8%"><plcvalaue>S7_1200.DB1.SL_Date[8]</plcvalaue></plcname>
+    <plcname vlaue="EndBag9%"><plcvalaue>S7_1200.DB1.SL_Date[9]</plcvalaue></plcname>
+    <plcname vlaue="EndBag10%"><plcvalaue>S7_1200.DB1.SL_Date[10]</plcvalaue></plcname>
+    <plcname vlaue="EndBag11%"><plcvalaue>S7_1200.DB1.SL_Date[11]</plcvalaue></plcname>
+    <plcname vlaue="EndBag12%"><plcvalaue>S7_1200.DB1.SL_Date[12]</plcvalaue></plcname>
+    <plcname vlaue="EndBag13%"><plcvalaue>S7_1200.DB1.SL_Date[13]</plcvalaue></plcname>
+    <plcname vlaue="EndBag14%"><plcvalaue>S7_1200.DB1.SL_Date[14]</plcvalaue></plcname>
+    <plcname vlaue="EndBag15%"><plcvalaue>S7_1200.DB1.SL_Date[15]</plcvalaue></plcname>
+    <plcname vlaue="EndBag16%"><plcvalaue>S7_1200.DB1.SL_Date[16]</plcvalaue></plcname>
+    <plcname vlaue="EndBag17%"><plcvalaue>S7_1200.DB1.SL_Date[17]</plcvalaue></plcname>
+    <plcname vlaue="EndBag18%"><plcvalaue>S7_1200.DB1.SL_Date[18]</plcvalaue></plcname>
+   
+     <plcname vlaue="EndBag0%1"><plcvalaue>S7_1200.DB1.SL_Date[0]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag1%1"><plcvalaue>S7_1200.DB1.SL_Date[1]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag2%1"><plcvalaue>S7_1200.DB1.SL_Date[2]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag3%1"><plcvalaue>S7_1200.DB1.SL_Date[3]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag4%1"><plcvalaue>S7_1200.DB1.SL_Date[4]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag5%1"><plcvalaue>S7_1200.DB1.SL_Date[5]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag6%1"><plcvalaue>S7_1200.DB1.SL_Date[6]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag7%1"><plcvalaue>S7_1200.DB1.SL_Date[7]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag8%1"><plcvalaue>S7_1200.DB1.SL_Date[8]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag9%1"><plcvalaue>S7_1200.DB1.SL_Date[9]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag10%1"><plcvalaue>S7_1200.DB1.SL_Date[10]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag11%1"><plcvalaue>S7_1200.DB1.SL_Date[11]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag12%1"><plcvalaue>S7_1200.DB1.SL_Date[12]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag13%1"><plcvalaue>S7_1200.DB1.SL_Date[13]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag14%1"><plcvalaue>S7_1200.DB1.SL_Date[14]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag15%1"><plcvalaue>S7_1200.DB1.SL_Date[15]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag16%1"><plcvalaue>S7_1200.DB1.SL_Date[16]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag17%1"><plcvalaue>S7_1200.DB1.SL_Date[17]1</plcvalaue></plcname>
+    <plcname vlaue="EndBag18%1"><plcvalaue>S7_1200.DB1.SL_Date[18]1</plcvalaue></plcname>
+    
+    <plcname vlaue="满袋1%"><plcvalaue>S7_1200.DB1.SL_State[1]</plcvalaue></plcname>
+    <plcname vlaue="满袋2%"><plcvalaue>S7_1200.DB1.SL_State[2]</plcvalaue></plcname>
+    <plcname vlaue="满袋3%"><plcvalaue>S7_1200.DB1.SL_State[3]</plcvalaue></plcname>
+    <plcname vlaue="满袋4%"><plcvalaue>S7_1200.DB1.SL_State[4]</plcvalaue></plcname>
+    <plcname vlaue="满袋5%"><plcvalaue>S7_1200.DB1.SL_State[5]</plcvalaue></plcname>
+    <plcname vlaue="满袋6%"><plcvalaue>S7_1200.DB1.SL_State[6]</plcvalaue></plcname>
+    <plcname vlaue="满袋7%"><plcvalaue>S7_1200.DB1.SL_State[7]</plcvalaue></plcname>
+    <plcname vlaue="满袋8%"><plcvalaue>S7_1200.DB1.SL_State[8]</plcvalaue></plcname>
+    <plcname vlaue="满袋9%"><plcvalaue>S7_1200.DB1.SL_State[9]</plcvalaue></plcname>
+    <plcname vlaue="满袋10%"><plcvalaue>S7_1200.DB1.SL_State[10]</plcvalaue></plcname>
+    <plcname vlaue="满袋11%"><plcvalaue>S7_1200.DB1.SL_State[11]</plcvalaue></plcname>
+    <plcname vlaue="满袋12%"><plcvalaue>S7_1200.DB1.SL_State[12]</plcvalaue></plcname>
+    <plcname vlaue="满袋13%"><plcvalaue>S7_1200.DB1.SL_State[13]</plcvalaue></plcname>
+    <plcname vlaue="满袋14%"><plcvalaue>S7_1200.DB1.SL_State[14]</plcvalaue></plcname>
+    <plcname vlaue="满袋15%"><plcvalaue>S7_1200.DB1.SL_State[15]</plcvalaue></plcname>
+    <plcname vlaue="满袋16%"><plcvalaue>S7_1200.DB1.SL_State[16]</plcvalaue></plcname>
+    <plcname vlaue="满袋17%"><plcvalaue>S7_1200.DB1.SL_State[17]</plcvalaue></plcname>
+    <plcname vlaue="满袋18%"><plcvalaue>S7_1200.DB1.SL_State[18]</plcvalaue></plcname>
+    
+   <!-- <plcname vlaue ="test_Write%">
+        <plcvalaue>数据类型示例.8 位设备.S 寄存器.String3%数据类型示例.8 位设备.S 寄存器.String4</plcvalaue>
+    </plcname>-->
+    <!--<plcname vlaue ="路径写入%">
+      <plcvalaue>S7:[S7 connection_1]DB2,D0%S7:[S7 connection_1]DB2,W4%S7:[S7 connection_1]DB2,W6%</plcvalaue>&lt;!&ndash;//&ndash;&gt;
+    </plcname>
+ 
+    <plcname vlaue ="读取序号%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W18%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="读取任务号%">
+      <plcvalaue>S7:[S7 connection_1]DB2,D12%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="读取条码%">
+      <plcvalaue>S7:[S7 connection_1]DB6,B2,12%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="读取序号2%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W8%</plcvalaue>
+    </plcname>
+      
+     <plcname vlaue ="满袋1%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W26%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="满袋2%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W28%</plcvalaue>
+    </plcname>
+     <plcname vlaue ="满袋3%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W30%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="满袋4%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W32%</plcvalaue>
+    </plcname> 
+     <plcname vlaue ="满袋5%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W34%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="满袋6%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W36%</plcvalaue>
+    </plcname>
+     <plcname vlaue ="满袋7%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W38%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="满袋8%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W40%</plcvalaue>
+    </plcname>
+ 
+    <plcname vlaue ="满袋9%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W42%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="满袋10%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W44%</plcvalaue>
+    </plcname>
+       
+     <plcname vlaue ="满袋11%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W46%</plcvalaue>
+    </plcname>
+    <plcname vlaue ="满袋12%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W48%</plcvalaue>
+    </plcname>
+     <plcname vlaue ="满袋13%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W50%</plcvalaue>
+    </plcname>
+      
+    <plcname vlaue ="落袋ID%">
+      <plcvalaue>S7:[S7 connection_1]DB2,D132%</plcvalaue>
+    </plcname>
+     <plcname vlaue ="落袋路向%">
+      <plcvalaue>S7:[S7 connection_1]DB2,W136%</plcvalaue>
+    </plcname>
+     <plcname vlaue ="清除落袋%">
+      <plcvalaue>S7:[S7 connection_1]DB2,D132%S7:[S7 connection_1]DB2,W136%</plcvalaue>
+    </plcname>-->
+  </PlcData>
+
+ 

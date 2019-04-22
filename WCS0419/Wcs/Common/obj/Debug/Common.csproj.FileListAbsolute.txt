@@ -1,0 +1,168 @@
+E:\project\2016\其他\皮带\code\Wcs\Common\bin\Debug\Common.dll
+E:\project\2016\其他\皮带\code\Wcs\Common\bin\Debug\Common.pdb
+E:\project\2016\其他\皮带\code\Wcs\Common\obj\Debug\Common.dll
+E:\project\2016\其他\皮带\code\Wcs\Common\obj\Debug\Common.pdb
+E:\code\Wcs\Common\bin\Debug\Common.dll
+E:\code\Wcs\Common\bin\Debug\Common.pdb
+E:\code\Wcs\Common\obj\Debug\Common.dll
+E:\code\Wcs\Common\obj\Debug\Common.pdb
+E:\code\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\Wcs\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Wcs\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\Wcs\Common\obj\Debug\Common.pdb
+E:\project\2018\顺丰\Wcs\Common\bin\Debug\Common.dll
+E:\project\2018\顺丰\Wcs\Common\bin\Debug\Common.pdb
+E:\project\2018\顺丰\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\project\2018\顺丰\Wcs\Common\obj\Debug\Common.dll
+E:\project\2018\顺丰\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\bin\Debug\Common.dll
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.dll
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\bin\Debug\Common.dll
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.dll
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\sf\Desktop\Wcs\Wcs\Common\bin\Debug\Common.dll
+C:\Users\sf\Desktop\Wcs\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\sf\Desktop\Wcs\Wcs\Common\obj\Debug\Common.dll
+C:\Users\sf\Desktop\Wcs\Wcs\Common\obj\Debug\Common.pdb
+E:\project\2018\顺丰\Wcs\Wcs\Common\bin\Debug\Common.dll
+E:\project\2018\顺丰\Wcs\Wcs\Common\bin\Debug\Common.pdb
+E:\project\2018\顺丰\Wcs\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\project\2018\顺丰\Wcs\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\project\2018\顺丰\Wcs\Wcs\Common\obj\Debug\Common.dll
+E:\project\2018\顺丰\Wcs\Wcs\Common\obj\Debug\Common.pdb
+E:\顺丰\Wcs\Wcs\Common\bin\Debug\Common.dll
+E:\顺丰\Wcs\Wcs\Common\bin\Debug\Common.pdb
+E:\顺丰\Wcs\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\顺丰\Wcs\Wcs\Common\obj\Debug\Common.dll
+E:\顺丰\Wcs\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\Common\bin\Debug\Common.dll
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\Common\obj\Debug\Common.dll
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\Common\obj\Debug\Common.pdb
+E:\新建文件夹\Wcs\Wcs\Common\bin\Debug\Common.dll
+E:\新建文件夹\Wcs\Wcs\Common\bin\Debug\Common.pdb
+E:\新建文件夹\Wcs\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\新建文件夹\Wcs\Wcs\Common\obj\Debug\Common.dll
+E:\新建文件夹\Wcs\Wcs\Common\obj\Debug\Common.pdb
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.dll
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.pdb
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.dll
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.pdb
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.dll
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.pdb
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.dll
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.pdb
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.dll
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.pdb
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\mscorlib.dll
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\normidna.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\normnfc.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\normnfd.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\normnfkc.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\normnfkd.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.dll
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.pdb
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\zh-Hans\mscorlib.resources.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.pdb
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.dll
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\Common\bin\Debug\Common.pdb
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csprojAssemblyReference.cache
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.dll
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\Common\obj\Debug\Common.pdb
+N:\Test02_S71200\WCS_S71200\Wcs\Common\bin\Debug\Common.dll
+N:\Test02_S71200\WCS_S71200\Wcs\Common\bin\Debug\Common.pdb
+N:\Test02_S71200\WCS_S71200\Wcs\Common\obj\Debug\Common.csprojAssemblyReference.cache
+N:\Test02_S71200\WCS_S71200\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+N:\Test02_S71200\WCS_S71200\Wcs\Common\obj\Debug\Common.dll
+N:\Test02_S71200\WCS_S71200\Wcs\Common\obj\Debug\Common.pdb
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\Common\bin\Debug\Common.dll
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\Common\bin\Debug\Common.pdb
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\Common\obj\Debug\Common.dll
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\Common\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\Common\obj\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190407\Wcs\Common\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190407\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190407\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190407\Wcs\Common\obj\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190407\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\Common\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\Common\obj\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\Common\obj\Debug\Common.pdb
+D:\WCS\WCS 1904010\Wcs\Common\bin\Debug\Common.dll
+D:\WCS\WCS 1904010\Wcs\Common\bin\Debug\Common.pdb
+D:\WCS\WCS 1904010\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\WCS\WCS 1904010\Wcs\Common\obj\Debug\Common.dll
+D:\WCS\WCS 1904010\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190415\Wcs\Common\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190415\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190415\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190415\Wcs\Common\obj\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190415\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190415\Wcs\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\WCS\WCS 190416  大改过后\Wcs\Common\bin\Debug\Common.dll
+D:\WCS\WCS 190416  大改过后\Wcs\Common\bin\Debug\Common.pdb
+D:\WCS\WCS 190416  大改过后\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\WCS\WCS 190416  大改过后\Wcs\Common\obj\Debug\Common.dll
+D:\WCS\WCS 190416  大改过后\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\Common\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\Common\obj\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\Common\obj\Debug\Common.pdb
+D:\WCS\WCS0417\Wcs\Common\bin\Debug\Common.dll
+D:\WCS\WCS0417\Wcs\Common\bin\Debug\Common.pdb
+D:\WCS\WCS0417\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\WCS\WCS0417\Wcs\Common\obj\Debug\Common.dll
+D:\WCS\WCS0417\Wcs\Common\obj\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS04173\Wcs\Common\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS04173\Wcs\Common\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS04173\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS04173\Wcs\Common\obj\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS04173\Wcs\Common\obj\Debug\Common.pdb
+D:\WCS\WCS0419\Wcs\Common\bin\Debug\Common.dll
+D:\WCS\WCS0419\Wcs\Common\bin\Debug\Common.pdb
+D:\WCS\WCS0419\Wcs\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\WCS\WCS0419\Wcs\Common\obj\Debug\Common.dll
+D:\WCS\WCS0419\Wcs\Common\obj\Debug\Common.pdb
+D:\WCS\WCS0419\Wcs\Common\obj\Debug\Common.csprojAssemblyReference.cache

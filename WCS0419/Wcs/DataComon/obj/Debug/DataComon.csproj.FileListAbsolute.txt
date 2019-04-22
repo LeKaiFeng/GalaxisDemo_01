@@ -1,0 +1,296 @@
+E:\project\2016\其他\皮带\code\Wcs\DataComon\bin\Debug\DataComon.dll
+E:\project\2016\其他\皮带\code\Wcs\DataComon\bin\Debug\DataComon.pdb
+E:\project\2016\其他\皮带\code\Wcs\DataComon\bin\Debug\Common.dll
+E:\project\2016\其他\皮带\code\Wcs\DataComon\bin\Debug\Common.pdb
+E:\project\2016\其他\皮带\code\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+E:\project\2016\其他\皮带\code\Wcs\DataComon\obj\Debug\DataComon.dll
+E:\project\2016\其他\皮带\code\Wcs\DataComon\obj\Debug\DataComon.pdb
+E:\code\Wcs\DataComon\bin\Debug\DataComon.dll
+E:\code\Wcs\DataComon\bin\Debug\DataComon.pdb
+E:\code\Wcs\DataComon\bin\Debug\Common.dll
+E:\code\Wcs\DataComon\bin\Debug\Common.pdb
+E:\code\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+E:\code\Wcs\DataComon\obj\Debug\DataComon.dll
+E:\code\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\Administrator\Desktop\顺丰\code\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Administrator\Desktop\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\Administrator\Desktop\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\Administrator\Desktop\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\Administrator\Desktop\Wcs\DataComon\obj\Debug\DataComon.pdb
+E:\project\2018\顺丰\Wcs\DataComon\bin\Debug\DataComon.dll
+E:\project\2018\顺丰\Wcs\DataComon\bin\Debug\DataComon.pdb
+E:\project\2018\顺丰\Wcs\DataComon\bin\Debug\Common.dll
+E:\project\2018\顺丰\Wcs\DataComon\bin\Debug\Common.pdb
+E:\project\2018\顺丰\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+E:\project\2018\顺丰\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+E:\project\2018\顺丰\Wcs\DataComon\obj\Debug\DataComon.dll
+E:\project\2018\顺丰\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\Administrator\Desktop\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\sf\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\Lenovo\Desktop\Wcs_shunfennew\Wcs_shunfennew\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\sf\Desktop\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\sf\Desktop\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\sf\Desktop\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\sf\Desktop\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\sf\Desktop\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\sf\Desktop\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\sf\Desktop\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+E:\project\2018\顺丰\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+E:\顺丰\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+E:\顺丰\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+E:\顺丰\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+E:\顺丰\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+E:\顺丰\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+E:\顺丰\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+E:\顺丰\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\Lenovo\Desktop\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+E:\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+E:\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+E:\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+E:\新建文件夹\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+E:\新建文件夹\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+E:\新建文件夹\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+E:\新建文件夹\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\新建文件夹\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\galaxis\分拣机\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\mscorlib.dll
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normidna.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfc.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfd.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfkc.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfkd.nlp
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\Tools\Galaxis\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\zh-Hans\mscorlib.resources.dll
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\mscorlib.dll
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\zh-Hans\mscorlib.resources.dll
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normidna.nlp
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfc.nlp
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfd.nlp
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfkc.nlp
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\normnfkd.nlp
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\Test03\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test03\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\Administrator.DESKTOP-0S9MOJU\Desktop\Test0330\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.dll
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\DataComon.pdb
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.dll
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\bin\Debug\Common.pdb
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.dll
+N:\Galaxis\WCS-KEPWare\Test04\Test04\Wcs 11241108\Wcs\Wcs\DataComon\obj\Debug\DataComon.pdb
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\DataComon.dll
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\DataComon.pdb
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\Common.dll
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\Common.pdb
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.dll
+N:\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\Common.dll
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\bin\Debug\Common.pdb
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\WCS\Test02_S71200\WCS_S71200\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190403 - 副本 (2)\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190407\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190407 - 副本\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\WCS\WCS 1904010\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\WCS\WCS 1904010\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\WCS\WCS 1904010\Wcs\DataComon\bin\Debug\Common.dll
+D:\WCS\WCS 1904010\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+D:\WCS\WCS 1904010\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+D:\WCS\WCS 1904010\Wcs\DataComon\bin\Debug\Common.pdb
+D:\WCS\WCS 1904010\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll.config
+D:\WCS\WCS 1904010\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+D:\WCS\WCS 1904010\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+D:\WCS\WCS 1904010\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+D:\WCS\WCS 1904010\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\WCS\WCS 1904010\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190415\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\Common.dll
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\Common.pdb
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\WCS\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS 190416  大改过后\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\WCS\WCS0417\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\WCS\WCS0417\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\WCS\WCS0417\Wcs\DataComon\bin\Debug\Common.dll
+D:\WCS\WCS0417\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+D:\WCS\WCS0417\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+D:\WCS\WCS0417\Wcs\DataComon\bin\Debug\Common.pdb
+D:\WCS\WCS0417\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+D:\WCS\WCS0417\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+D:\WCS\WCS0417\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+D:\WCS\WCS0417\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\WCS\WCS0417\Wcs\DataComon\obj\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\bin\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\bin\Debug\DataComon.pdb
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\bin\Debug\Common.dll
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\bin\Debug\Common.pdb
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\obj\Debug\DataComon.dll
+C:\Users\SHC\Desktop\WCS04173\Wcs\DataComon\obj\Debug\DataComon.pdb
+D:\WCS\WCS0419\Wcs\DataComon\bin\Debug\DataComon.dll
+D:\WCS\WCS0419\Wcs\DataComon\bin\Debug\DataComon.pdb
+D:\WCS\WCS0419\Wcs\DataComon\bin\Debug\Common.dll
+D:\WCS\WCS0419\Wcs\DataComon\bin\Debug\System.Data.SQLite.dll
+D:\WCS\WCS0419\Wcs\DataComon\bin\Debug\System.Data.SQLite.Linq.dll
+D:\WCS\WCS0419\Wcs\DataComon\bin\Debug\Common.pdb
+D:\WCS\WCS0419\Wcs\DataComon\obj\Debug\DataComon.csprojAssemblyReference.cache
+D:\WCS\WCS0419\Wcs\DataComon\obj\Debug\DataComon.csproj.CoreCompileInputs.cache
+D:\WCS\WCS0419\Wcs\DataComon\obj\Debug\DataComon.csproj.CopyComplete
+D:\WCS\WCS0419\Wcs\DataComon\obj\Debug\DataComon.dll
+D:\WCS\WCS0419\Wcs\DataComon\obj\Debug\DataComon.pdb

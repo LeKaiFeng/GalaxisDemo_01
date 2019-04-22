@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Wcs.-838543309.00" t="ExcludeRecursive" />
+    <e p="N:\WCS0419\Wcs" t="IncludeFlat">
+      <e p="Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common.csproj" t="IncludeRecursive" />
+        <e p="LogWrite.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SystemCommon.cs" t="Include" />
+      </e>
+      <e p="DataComon" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CreateData.cs" t="Include" />
+        <e p="DataClass.cs" t="Include" />
+        <e p="DataComon.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SqliteDbHelp.cs" t="Include" />
+        <e p="SqlServerHelper.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Wcs" t="IncludeRecursive">
+        <e p="Analysis.cs" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="config.xml" t="Include" />
+        <e p="FormQuery.cs" t="Include" />
+        <e p="FormQuery.Designer.cs" t="Include" />
+        <e p="FormQuery.resx" t="Include" />
+        <e p="FrmMain.cs" t="Include" />
+        <e p="FrmMain.Designer.cs" t="Include" />
+        <e p="FrmMain.resx" t="Include" />
+        <e p="FrmReoprt.cs" t="Include" />
+        <e p="FrmReoprt.Designer.cs" t="Include" />
+        <e p="FrmReoprt.resx" t="Include" />
+        <e p="HashForeach.cs" t="Include" />
+        <e p="LoadForm.cs" t="Include" />
+        <e p="LoadForm.designer.cs" t="Include" />
+        <e p="LoadForm.resx" t="Include" />
+        <e p="Log.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PLCData.xml" t="Include" />
+        <e p="PLCDB" t="Include">
+          <e p="IPLCAbstract.cs" t="Include" />
+          <e p="PLCAbstract.cs" t="Include" />
+          <e p="PLClock.cs" t="Include" />
+        </e>
+        <e p="PlcFactory.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="licenses.licx" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="RfConfig.cs" t="Include" />
+        <e p="SOCKET" t="Include">
+          <e p="ChatCommand.cs" t="Include" />
+          <e p="ChatSocket.cs" t="Include" />
+          <e p="ClientManager.cs" t="Include" />
+          <e p="SockUtils.cs" t="Include" />
+          <e p="TimedEventArgs.cs" t="Include" />
+        </e>
+        <e p="SplashScreen1.cs" t="Include" />
+        <e p="SplashScreen1.designer.cs" t="Include" />
+        <e p="SplashScreen1.resx" t="Include" />
+        <e p="StateObject.cs" t="Include" />
+        <e p="t_wmsdata.cs" t="Include" />
+        <e p="Wcs.csproj" t="IncludeRecursive" />
+        <e p="WmsCommon.cs" t="Include" />
+      </e>
+      <e p="Wcs.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
